@@ -1,0 +1,171 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+body {
+    background: rgb(123, 66, 150);
+    background: radial-gradient(circle,  rgba(123, 66, 150, 1) 0%, rgba(0, 0, 0, 1) 100%);
+    width: 100%;
+    height: 100vh;
+}
+
+.title {
+    text-align: center;
+    margin-top: 30px;
+    font-family: 'Sono', sans-serif;
+    color: white;
+}
+
+.noLink {
+    text-decoration: none;
+    color: white;
+}
+
+/* GAME */
+
+#board-game {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: transparent;
+    width: 100%;
+    height: 50%;
+    font-family: 'Sono', sans-serif;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.cards-container {
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    margin: -30px auto;
+    padding: 10px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 100px;
+    grid-gap: 10px;
+}
+
+.card {
+    border: solid 1px rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    position: relative;
+    border-radius: 5px;
+    font-size: 50px;
+    padding: 5px;
+}
+
+.card:hover {
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.setup {
+    width: 90%;
+    max-width: 500px;
+    height: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: 20px;
+    border: 1px solid white;
+    margin: 180px auto;
+    border-radius: 10px;
+}
+
+.time {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.btn {
+    background-color: transparent;
+    color: white;
+    border-color: aliceblue;
+    border-radius: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    width: 100px;
+    height: 30px;
+    font-family: 'Sono', sans-serif;
+}
+
+.unavailable {
+    pointer-events: none;
+}
+
+.win {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    width: 100%;
+    max-width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    text-align: center;
+    background: #020202;
+    padding: 100px 20px;
+}
+
+.win-text {
+    font-size: 30px;
+    color: rgba(34, 193, 195, 1);
+}
+
+.red {
+    color: red;
+}
+
+footer {
+    align-items: center;
+    min-height: 80px;
+    padding: 1em;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.autor {
+    font-size: 16px;
+    margin: 0 auto;
+    font-weight: bold;
+    font-family: 'Sono', sans-serif;
+
+}
+
+.github {
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-image: linear-gradient(60deg, #7affd3, #00ffd5);
+    background-clip: text;
+    color: transparent;
+}
+
+table {
+    max-width: 400px;
+    margin: 0 auto;
+    border-collapse: separate;
+    border-spacing: 4px;
+    font-family: 'Sono', sans-serif;
+}
+
+td {
+    vertical-align: top;
+    padding: 10px 40px;
+    text-align: center;
+}
+
+.title-td {
+    background-color: rgb(34, 193, 195);
+    font-weight: 600;
+}
+
+.point,
+.user {
+    background-color: rgb(188, 241, 241)
+}
