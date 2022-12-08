@@ -163,7 +163,7 @@ function youLose() {
         showCancelButton: true,
         confirmButtonColor: '#3085d6',
         cancelButtonColor: '#d33',
-        confirmButtonText: '<a class="noLink" href="https://mentalchallenge.netlify.app/">Jugá otra vez</a>',
+        confirmButtonText: '<a class="noLink" href="https://github.com/JimenaMonllor/MemoTest-JS">Jugá otra vez</a>',
         cancelButtonText: '<a class="noLink topScore">Top scores</a>',
     })
 }
@@ -186,7 +186,7 @@ function youWin() {
         showDenyButton: true,
         showCancelButton: true,
         confirmButtonText: 'Save',
-        denyButtonText: '<a class="noLink" href="https://mentalchallenge.netlify.app/">Play again</a>',
+        denyButtonText: '<a class="noLink" href="https://github.com/JimenaMonllor/MemoTest-JS">Play again</a>',
         cancelButtonText: '<a class="noLink topScore">Top scores</a>',
     }).then((result) => {
         if (result.isConfirmed) {
@@ -234,7 +234,7 @@ function playAgain() {
     Swal.fire({
         title: 'Queres intentarlo otra vez?',
         showDenyButton: true,
-        confirmButtonText: '<a class="noLink" href="https://mentalchallenge.netlify.app/">Jugar otra vez</a>',
+        confirmButtonText: '<a class="noLink" href="https://github.com/JimenaMonllor/MemoTest-JS">Jugar otra vez</a>',
         denyButtonText: `Cancelar`,
     })
 }
@@ -283,7 +283,7 @@ function showScores() {
         </tbody>
     </table>
   `,
-        confirmButtonText: '<a class="noLink" href="https://mentalchallenge.netlify.app/">Jugá otra vez</a>',
+        confirmButtonText: '<a class="noLink" href="https://github.com/JimenaMonllor/MemoTest-JS">Jugá otra vez</a>',
     })
 }
 
