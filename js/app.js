@@ -185,8 +185,8 @@ function youWin() {
         background: '#fff url(/images/trees.png)',
         showDenyButton: true,
         showCancelButton: true,
-        confirmButtonText: 'Save',
-        denyButtonText: '<a class="noLink" href="https://jimenamonllor.github.io/MemoTest-JS/">Play again</a>',
+        confirmButtonText: 'Guardar',
+        denyButtonText: '<a class="noLink" href="https://jimenamonllor.github.io/MemoTest-JS/">Jugá otra vez</a>',
         cancelButtonText: '<a class="noLink topScore">Top scores</a>',
     }).then((result) => {
         if (result.isConfirmed) {
@@ -211,7 +211,7 @@ function saveScore() {
     Swal.fire({
         title: 'Ingresá tu nombre',
         input: 'text',
-        confirmButtonText: 'Save',
+        confirmButtonText: 'Guardar',
         showLoaderOnConfirm: true,
         inputValidator: name => {
             if (!name) {

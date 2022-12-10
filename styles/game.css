@@ -10,11 +10,17 @@ body {
     height: 100vh;
 }
 
-.title {
-    text-align: center;
-    margin-top: 30px;
-    font-family: 'Sono', sans-serif;
-    color: white;
+.title{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+
+}
+
+img{
+    width: 350px;
+    height: 150px;
 }
 
 .noLink {
